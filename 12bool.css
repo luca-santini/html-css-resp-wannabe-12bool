@@ -16,6 +16,10 @@
     content: "";
 }
 
+[class*="col-"] {
+    float: left;
+}
+
 @media all and (max-width: 767px) {
     .col-xs-1 {
         width: calc(100% / 12);
